@@ -1,0 +1,67 @@
+.grid {
+  display: grid;
+  border: 1px white dotted;
+  width: 1024px;
+  height: 100%;
+  grid-area: 2 / 5 / span 3 / span 7;
+  grid-gap: 1px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 1px white dotted;
+}
+
+.a {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.b {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.c {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.d {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.e {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.f {
+  grid-row: 6 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.g {
+  grid-row: 7 / span 1;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+img {
+  border-radius: 1%;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition:         transform .3s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
